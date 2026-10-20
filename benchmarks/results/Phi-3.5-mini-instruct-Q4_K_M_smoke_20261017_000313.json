@@ -1,0 +1,136 @@
+{
+  "model_name": "Phi-3.5-mini-instruct-Q4_K_M",
+  "model_path": "models/Phi-3.5-mini-instruct-Q4_K_M.gguf",
+  "stage": "smoke",
+  "timestamp": "20261017_000313",
+  "threads": 4,
+  "context_window": 2048,
+  "model_load_time_sec": 3.2,
+  "avg_ttft_sec": 27.84,
+  "avg_tokens_per_sec": 4.49,
+  "peak_ram_mb": 4418.84,
+  "script_compliance_pct": 100.0,
+  "total_prompts_tested": 3,
+  "detailed_results": [
+    {
+      "prompt_meta": {
+        "id": "11",
+        "category": "Roman Hinglish and language control",
+        "name": "Roman script discipline",
+        "target": "Script compliance · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write a 4-line poem in Roman Hinglish about a person returning to their childhood neighbourhood. Use the words \"gali\", \"purana\", \"khidki\", and \"shayad\" naturally. All Hindi and Urdu words must be written in Roman script. Do not use Devanagari, Arabic, or Nastaliq characters. Do not add a title, transliteration, explanation, or English introduction. Keep the poem understated and end with an observation about change."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Gali mein khidki ki puran,\nNostalgia's shayad jagah se bhi aansoo.  \nZindagi ko pilaane woh chandi ho jaaye hazaar,   \nRajaas ka rang aur marham pe hota naha gaya karo sahara banjarein vrat karoonaan shayad na change lagta raha thahai.",
+            "token_count": 98,
+            "ttft_sec": 67.735,
+            "total_duration_sec": 90.975,
+            "tokens_per_sec": 4.17,
+            "peak_ram_mb": 4417.34
+          },
+          "evaluation": {
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 39,
+            "pinned_line_preserved": true,
+            "forbidden_violations": [],
+            "clean_lines": [
+              "Gali mein khidki ki puran,",
+              "Nostalgia's shayad jagah se bhi aansoo.",
+              "Zindagi ko pilaane woh chandi ho jaaye hazaar,",
+              "Rajaas ka rang aur marham pe hota naha gaya karo sahara banjarein vrat karoonaan shayad na change lagta raha thahai."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "16",
+        "category": "Structure, cadence and final-line quality",
+        "name": "No explanation after the poem",
+        "target": "Format compliance · 2 lines",
+        "expected_lines": 2,
+        "pinned_line": null,
+        "prompt": "Write one Roman Hinglish couplet about keeping an old photograph in a drawer but no longer looking at it. Output exactly 2 poetic lines and nothing else. No title, preamble, quotation marks, commentary, translation, or explanation. Avoid familiar phrases about memories and time healing everything. Use conversational language, no forced rhyme, and let the second line carry the emotional shift."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Pahunch ka drawer, ghar par nahi bhool se khush hua fotoon tak\nSafar ko karun mein dholak na chahe lag raha ho.",
+            "token_count": 46,
+            "ttft_sec": 7.061,
+            "total_duration_sec": 16.448,
+            "tokens_per_sec": 4.79,
+            "peak_ram_mb": 4418.07
+          },
+          "evaluation": {
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "line_count": 2,
+            "expected_lines": 2,
+            "line_count_match": true,
+            "word_count": 22,
+            "pinned_line_preserved": true,
+            "forbidden_violations": [],
+            "clean_lines": [
+              "Pahunch ka drawer, ghar par nahi bhool se khush hua fotoon tak",
+              "Safar ko karun mein dholak na chahe lag raha ho."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "19",
+        "category": "Robustness and creative control",
+        "name": "The user protects the opening line",
+        "target": "Pinned-line revision · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": "Aaj bhi darwaza dheere se band kiya.",
+        "prompt": "The first line is locked and must remain exactly unchanged: \"Aaj bhi darwaza dheere se band kiya.\"\nWrite 3 additional lines of Roman Hinglish poetry that continue naturally from it. Do not rewrite, punctuate differently, or repeat the locked line. Keep the tone understated and conversational. Avoid forced rhyme, generic heartbreak language, and moralizing. Make the final line reveal a new detail about why the speaker still closes the door that way."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Sab kuch bhi sakhti, jis se aansooni dhoondh raha hai.\nNazar ke chanchal ne humara saath tak hota ho jaise naa band karte theek nahin; \nKoi jo ek baat kiya lagaai hi kuch bhi nikalta, jiski taadpatti par aavashyak hai.",
+            "token_count": 94,
+            "ttft_sec": 8.714,
+            "total_duration_sec": 29.375,
+            "tokens_per_sec": 4.5,
+            "peak_ram_mb": 4418.84
+          },
+          "evaluation": {
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "line_count": 3,
+            "expected_lines": 4,
+            "line_count_match": false,
+            "word_count": 40,
+            "pinned_line_preserved": false,
+            "forbidden_violations": [],
+            "clean_lines": [
+              "Sab kuch bhi sakhti, jis se aansooni dhoondh raha hai.",
+              "Nazar ke chanchal ne humara saath tak hota ho jaise naa band karte theek nahin;",
+              "Koi jo ek baat kiya lagaai hi kuch bhi nikalta, jiski taadpatti par aavashyak hai."
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1054 @@
+{
+  "model_name": "Llama-3.2-3B-Instruct-Q4_K_M",
+  "model_path": "models/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+  "stage": "full",
+  "timestamp": "20261017_015647",
+  "threads": 4,
+  "context_window": 8192,
+  "model_load_time_sec": 3.48,
+  "avg_ttft_sec": 15.25,
+  "cold_ttft_sec": 200.091,
+  "avg_tokens_per_sec": 6.36,
+  "peak_ram_mb": 4455.31,
+  "script_compliance_pct": 100.0,
+  "cleanliness_pct": 100.0,
+  "line_count_adherence_pct": 100.0,
+  "hinglish_fidelity_pct": 100.0,
+  "locked_line_integrity_pct": 100.0,
+  "strict_pass_pct": 95.0,
+  "total_prompts_tested": 20,
+  "total_executions": 20,
+  "detailed_results": [
+    {
+      "prompt_meta": {
+        "id": "01",
+        "category": "Emotional restraint and subtlety",
+        "name": "The friendship that slowly changed",
+        "target": "Betrayal · Restraint · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write a short Roman Hinglish poem about a close friend who slowly became a stranger. There was no fight and no clear ending; the conversations simply became shorter. Keep the tone quiet, personal, and slightly disappointed, not angry. Use everyday language and one concrete detail from ordinary life. Write exactly 4 lines. Avoid forced rhyming and familiar heartbreak clichés. The last line should reveal something the speaker has only just understood."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Me tumse baat karte samay, tere doston ne hi kahaa\nAapke paas ek chai ka cup tha jo hum bhi usee tak pehle nahi pilaaya tha\nAb vah toh bahut different ho gaya hai aur mere saath kuchh nahin hai\nMujhe lagta hai ki woh abhi teri dosti hi thaa",
+            "token_count": 86,
+            "ttft_sec": 200.091,
+            "total_duration_sec": 217.55,
+            "tokens_per_sec": 4.87,
+            "peak_ram_mb": 4432.05
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 50.0,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 50,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Me tumse baat karte samay, tere doston ne hi kahaa",
+              "Aapke paas ek chai ka cup tha jo hum bhi usee tak pehle nahi pilaaya tha",
+              "Ab vah toh bahut different ho gaya hai aur mere saath kuchh nahin hai",
+              "Mujhe lagta hai ki woh abhi teri dosti hi thaa"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "02",
+        "category": "Emotional restraint and subtlety",
+        "name": "The unsent message",
+        "target": "Longing · Understatement · 2 lines",
+        "expected_lines": 2,
+        "pinned_line": null,
+        "prompt": "Write a Roman Hinglish couplet about typing a long message to someone and deleting it without sending. Do not explain the entire relationship. Do not use the words \"dil\", \"dard\", \"aansu\", \"tanhaai\", or \"yaadein\". Use a small, believable detail from a phone or a room. Exactly 2 lines, conversational rather than ornate. Make the second line quietly change the meaning of the first."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Kuch likhne ki koshish to karoon, lekin fir se wapas chal jaa rahoon.\nAise hi main khuda ko yaad dilata hoon.",
+            "token_count": 42,
+            "ttft_sec": 6.592,
+            "total_duration_sec": 14.496,
+            "tokens_per_sec": 5.19,
+            "peak_ram_mb": 4434.59
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 47.6,
+            "language_mode": "Roman Hinglish",
+            "line_count": 2,
+            "expected_lines": 2,
+            "line_count_match": true,
+            "word_count": 21,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Kuch likhne ki koshish to karoon, lekin fir se wapas chal jaa rahoon.",
+              "Aise hi main khuda ko yaad dilata hoon."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "03",
+        "category": "Emotional restraint and subtlety",
+        "name": "A quiet apology",
+        "target": "Guilt · Emotional nuance · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write 4 lines of Roman Hinglish poetry from the perspective of someone who realizes they hurt a person who trusted them. The speaker should not ask for forgiveness or justify their behavior. Avoid dramatic declarations, moral lessons, and stock phrases about broken hearts. Make the poem feel like an honest thought the speaker would never say aloud. The final line should carry the weight of the realization without explaining it."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mere dost ko tum saabit ho gaya\nKisi na kisi baat ki wajah se\nMaine khud hi apni azaadi kiya hai\nAb teri zulf dhoondhna mushkil hai",
+            "token_count": 52,
+            "ttft_sec": 5.424,
+            "total_duration_sec": 13.943,
+            "tokens_per_sec": 5.99,
+            "peak_ram_mb": 4436.19
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 55.6,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 27,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mere dost ko tum saabit ho gaya",
+              "Kisi na kisi baat ki wajah se",
+              "Maine khud hi apni azaadi kiya hai",
+              "Ab teri zulf dhoondhna mushkil hai"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "04",
+        "category": "Emotional restraint and subtlety",
+        "name": "Missing someone without saying it",
+        "target": "Indirect emotion · Imagery · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write a restrained 4-line Roman Hinglish poem about missing someone, but never directly say \"I miss you\", \"yaad aati hai\", or \"intezaar\". Show the feeling through an ordinary repeated habit that no longer makes sense. Use natural spoken Hinglish, with no elaborate Persian or Urdu metaphors. Avoid rhyme unless it occurs naturally. End on an understated observation."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Maine har din coffee khaana aur gulaal lagaane ka hissa ban gaya\nLagta hai wo hamesha raha, lekin ab bina use nahi kiya jaa sakta\nGulaal lagakar thoda chota sa aansoo nikalta tha jo khulne par nahin tha\nAb woh gulaal ka hissa ban gaya toh coffee khaana hi zyada mushkil ho raha hai",
+            "token_count": 102,
+            "ttft_sec": 5.386,
+            "total_duration_sec": 22.788,
+            "tokens_per_sec": 5.8,
+            "peak_ram_mb": 4437.92
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 29.6,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 54,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Maine har din coffee khaana aur gulaal lagaane ka hissa ban gaya",
+              "Lagta hai wo hamesha raha, lekin ab bina use nahi kiya jaa sakta",
+              "Gulaal lagakar thoda chota sa aansoo nikalta tha jo khulne par nahin tha",
+              "Ab woh gulaal ka hissa ban gaya toh coffee khaana hi zyada mushkil ho raha hai"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "05",
+        "category": "Originality and anti-cliché control",
+        "name": "A cold cup of chai",
+        "target": "Concrete imagery · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write exactly 4 lines of Roman Hinglish poetry about two people sitting together after an uncomfortable conversation. A cup of chai has gone cold between them. Do not mention heartbreak, tears, loneliness, or silence directly. Do not personify the cup. Use the physical scene to communicate what the people cannot say. Avoid forced rhyme and end with a fresh, understated turn."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Chai ka thanda hua, hum dono ek side par hai\nAchha nahi kuchh bolne ki zaroorat thi, lekin samajh mein raha tha\nKisi aur ko yah nahi dikhai de sakte, yeh kheltaa hai jahan hum rahe the\nAb thanda chai ka saamna karke ek dusre ke aankhon se milte hain",
+            "token_count": 92,
+            "ttft_sec": 5.486,
+            "total_duration_sec": 19.521,
+            "tokens_per_sec": 6.48,
+            "peak_ram_mb": 4439.6
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 50.0,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 50,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Chai ka thanda hua, hum dono ek side par hai",
+              "Achha nahi kuchh bolne ki zaroorat thi, lekin samajh mein raha tha",
+              "Kisi aur ko yah nahi dikhai de sakte, yeh kheltaa hai jahan hum rahe the",
+              "Ab thanda chai ka saamna karke ek dusre ke aankhon se milte hain"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "06",
+        "category": "Originality and anti-cliché control",
+        "name": "Rain without romance",
+        "target": "Cliché avoidance · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write a 4-line Roman Hinglish poem about walking home in the rain after receiving disappointing news. Rain must remain ordinary weather, not a metaphor for tears or cleansing. Avoid \"bheegi yaadein\", \"aankhon ka samandar\", \"toota hua dil\", and any predictable romantic imagery. Use one specific sensory detail and a restrained voice. Make the last line emotionally meaningful without being dramatic."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mujhe rain ki dhoop peh chalna hai,\nJisne mere din ka mula kharab kar diya.\nPaani mein mere aansoo naa aa rahe the,\nLekin humare paae ke andar thandak ho gayi.",
+            "token_count": 63,
+            "ttft_sec": 5.547,
+            "total_duration_sec": 15.102,
+            "tokens_per_sec": 6.49,
+            "peak_ram_mb": 4441.26
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 38.7,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 31,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mujhe rain ki dhoop peh chalna hai,",
+              "Jisne mere din ka mula kharab kar diya.",
+              "Paani mein mere aansoo naa aa rahe the,",
+              "Lekin humare paae ke andar thandak ho gayi."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "07",
+        "category": "Originality and anti-cliché control",
+        "name": "An ordinary object",
+        "target": "Fresh metaphor · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write 4 lines of Roman Hinglish poetry about an old house key that the speaker still carries even though they no longer live in that house. Do not use the words \"past\", \"memories\", \"yaadein\", \"dard\", or \"tanhaai\". Do not explain what the key symbolizes. Build meaning from a concrete detail about the object and its current use. Avoid conventional rhymes. The ending should invite interpretation rather than explain the poem."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mere ishq ki duniya mein\nKisi kaam ke liye toh leke hi aao\nHansat khali gharon se joochte hain\nIska khafaayat bhi kuch nahi hai",
+            "token_count": 54,
+            "ttft_sec": 6.001,
+            "total_duration_sec": 14.256,
+            "tokens_per_sec": 6.42,
+            "peak_ram_mb": 4442.89
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 48.0,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 25,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mere ishq ki duniya mein",
+              "Kisi kaam ke liye toh leke hi aao",
+              "Hansat khali gharon se joochte hain",
+              "Iska khafaayat bhi kuch nahi hai"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "08",
+        "category": "Originality and anti-cliché control",
+        "name": "Avoid the expected ending",
+        "target": "Originality · Unexpected turn · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write a 4-line Roman Hinglish poem about waiting for someone who promised to visit but never came. Do not mention a clock, a phone notification, rain, tears, or an empty chair. Avoid moralizing and familiar heartbreak lines. The poem should begin with an ordinary practical action and gradually reveal the speaker's disappointment. Make the final line surprising but believable, not a dramatic twist."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Kuch nahi karta, main uski baat sunta hoon\nUsne promise kiya tha, woh bhi aane ka\nAb toh mere liye yah hi maza nahin hai\nMain toofan mein chaltaa hu, jo wo haath na de.",
+            "token_count": 65,
+            "ttft_sec": 5.356,
+            "total_duration_sec": 15.499,
+            "tokens_per_sec": 6.31,
+            "peak_ram_mb": 4444.44
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 45.7,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 35,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Kuch nahi karta, main uski baat sunta hoon",
+              "Usne promise kiya tha, woh bhi aane ka",
+              "Ab toh mere liye yah hi maza nahin hai",
+              "Main toofan mein chaltaa hu, jo wo haath na de."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "09",
+        "category": "Roman Hinglish and language control",
+        "name": "Natural Hinglish conversation",
+        "target": "Code-switching · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write exactly 4 lines of Roman Hinglish poetry about two old friends meeting after a long time and behaving as if nothing has changed, even though both know it has. Use natural spoken Hindi with a little English where it would genuinely occur in conversation. Avoid overly formal Urdu vocabulary and artificial English rhymes. Use only Roman script. End with a quiet realization."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Bilkul, mere dost ke liye toh nahi tha koi badlaav\nAagey bhi jaise aapne kab se kuch nahi dekha hai\nKafi saal ho gaye hain, aur ab bhi tum hi hai\nEk samay ka intezar reh gya, phir woh khataab bhi",
+            "token_count": 78,
+            "ttft_sec": 4.838,
+            "total_duration_sec": 16.441,
+            "tokens_per_sec": 6.64,
+            "peak_ram_mb": 4445.96
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 61.0,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 41,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Bilkul, mere dost ke liye toh nahi tha koi badlaav",
+              "Aagey bhi jaise aapne kab se kuch nahi dekha hai",
+              "Kafi saal ho gaye hain, aur ab bhi tum hi hai",
+              "Ek samay ka intezar reh gya, phir woh khataab bhi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "10",
+        "category": "Roman Hinglish and language control",
+        "name": "Everyday Punjabi nuance",
+        "target": "Regional language naturalness · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write 4 lines of Roman Hinglish poetry about a mother asking whether her adult child has eaten, while avoiding a direct conversation about their growing distance. Use natural North Indian conversational phrasing, with at most one or two Punjabi expressions if they fit organically. Do not exaggerate a regional accent or use caricatured dialect. Avoid melodrama. The final line should suggest care without explicitly explaining it."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mere ishq ka thoda tamanna hai ki tum kha kar ho\nAur main bhi khana khao, na toh tum phooche nahi?\nKya tum apne andar hichki se chhoo gaye ho?\nMain din raat dosti ke sath rahoon, tere dil ko.",
+            "token_count": 72,
+            "ttft_sec": 5.786,
+            "total_duration_sec": 16.247,
+            "tokens_per_sec": 6.79,
+            "peak_ram_mb": 4447.61
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 62.5,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 40,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mere ishq ka thoda tamanna hai ki tum kha kar ho",
+              "Aur main bhi khana khao, na toh tum phooche nahi?",
+              "Kya tum apne andar hichki se chhoo gaye ho?",
+              "Main din raat dosti ke sath rahoon, tere dil ko."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "11",
+        "category": "Roman Hinglish and language control",
+        "name": "Roman script discipline",
+        "target": "Script compliance · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write a 4-line poem in Roman Hinglish about a person returning to their childhood neighbourhood. Use the words \"gali\", \"purana\", \"khidki\", and \"shayad\" naturally. All Hindi and Urdu words must be written in Roman script. Do not use Devanagari, Arabic, or Nastaliq characters. Do not add a title, transliteration, explanation, or English introduction. Keep the poem understated and end with an observation about change."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mere purane shehar ke gali mein ja raha hoon\nJo khidki se apne aas-paas ki duniya dekhti thi\nAb yeh sahi nahi hai, shayad kuchh badal gaya tha\nLekin yah bhi thaa jo meri pyaar di chhaon mein raha",
+            "token_count": 79,
+            "ttft_sec": 6.092,
+            "total_duration_sec": 17.83,
+            "tokens_per_sec": 6.65,
+            "peak_ram_mb": 4449.21
+          },
+          "evaluation": {
+            "strict_pass": false,
+            "failure_reasons": [
+              "missing_words(purana)"
+            ],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 59.0,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 39,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [
+              "gali",
+              "purana",
+              "khidki",
+              "shayad"
+            ],
+            "missing_required_words": [
+              "purana"
+            ],
+            "required_words_passed": false,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mere purane shehar ke gali mein ja raha hoon",
+              "Jo khidki se apne aas-paas ki duniya dekhti thi",
+              "Ab yeh sahi nahi hai, shayad kuchh badal gaya tha",
+              "Lekin yah bhi thaa jo meri pyaar di chhaon mein raha"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "12",
+        "category": "Roman Hinglish and language control",
+        "name": "A formal Urdu register without ornament",
+        "target": "Vocabulary balance · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write 4 lines of Roman Hinglish poetry about a person accepting that an important relationship has changed. Include the words \"sabr\" and \"lehja\", but use otherwise simple conversational language. Do not add ornate Persian compounds, elaborate metaphors, or forced rhymes. Keep the emotional tone calm rather than defeated. All text must remain in Roman script. End on a subtle change in the speaker's understanding."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mujhe ab sabr hai ki tumne kuch badal diya\nLehja ho gayi, woh to ek bar baaki rehta tha\nMain hamesha samjhaa thaa ki tum mere liye hi\nAaj mujhe lagta hai ki yeh ek naya dil hai",
+            "token_count": 68,
+            "ttft_sec": 5.3,
+            "total_duration_sec": 15.229,
+            "tokens_per_sec": 6.75,
+            "peak_ram_mb": 4450.75
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 63.2,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 38,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [
+              "sabr",
+              "lehja"
+            ],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mujhe ab sabr hai ki tumne kuch badal diya",
+              "Lehja ho gayi, woh to ek bar baaki rehta tha",
+              "Main hamesha samjhaa thaa ki tum mere liye hi",
+              "Aaj mujhe lagta hai ki yeh ek naya dil hai"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "13",
+        "category": "Structure, cadence and final-line quality",
+        "name": "A complete two-line couplet",
+        "target": "Concision · 2 lines",
+        "expected_lines": 2,
+        "pinned_line": null,
+        "prompt": "Write exactly 2 lines of Roman Hinglish poetry about discovering that you no longer feel angry with someone who once hurt you. Do not use the words \"maaf\", \"dil\", \"dard\", or \"badla\". Each line should be short enough to say naturally in one breath. Avoid forced rhyme. The second line should subtly reveal that the speaker has changed, without announcing personal growth."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mujhe aasamand hua hai, o jalwa se hi\nNeeche gire hue khilte ho tumhari choti si zubaan",
+            "token_count": 36,
+            "ttft_sec": 5.151,
+            "total_duration_sec": 10.53,
+            "tokens_per_sec": 6.51,
+            "peak_ram_mb": 4452.25
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 17.6,
+            "language_mode": "Sparse / Low Hinglish",
+            "line_count": 2,
+            "expected_lines": 2,
+            "line_count_match": true,
+            "word_count": 17,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mujhe aasamand hua hai, o jalwa se hi",
+              "Neeche gire hue khilte ho tumhari choti si zubaan"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "14",
+        "category": "Structure, cadence and final-line quality",
+        "name": "The quiet final turn",
+        "target": "Ending impact · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write a 4-line Roman Hinglish poem about a person preparing a favourite meal for someone who will not be coming home anymore. Do not state why the person is absent. Keep the first three lines observational and restrained. The fourth line must change how the reader understands the scene, without adding a new character or explaining the symbolism. Avoid tears, heartbreak clichés, and moral lessons."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mere khana ko thoda zyada tayar kar raha hoon\nBina kisi aur ke liye, apne aas-paas hi rehta hai\nKitchen mein dhoop aa rahi hai, pyazon ki tasveer\nAchcha, ab humein sab kuch bhi nahi chaahe",
+            "token_count": 75,
+            "ttft_sec": 5.274,
+            "total_duration_sec": 16.575,
+            "tokens_per_sec": 6.55,
+            "peak_ram_mb": 4453.74
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 44.4,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 36,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mere khana ko thoda zyada tayar kar raha hoon",
+              "Bina kisi aur ke liye, apne aas-paas hi rehta hai",
+              "Kitchen mein dhoop aa rahi hai, pyazon ki tasveer",
+              "Achcha, ab humein sab kuch bhi nahi chaahe"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "15",
+        "category": "Structure, cadence and final-line quality",
+        "name": "Natural rhythm without rhyme",
+        "target": "Cadence · Free verse · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write exactly 4 lines of free-verse Roman Hinglish about returning home after a long, exhausting day and finding that nobody has noticed how tired you are. Prioritize natural spoken rhythm over syllable matching or rhyme. Include one concrete household detail. Avoid abstract words such as \"zindagi\", \"kismat\", and \"tanhaai\". The final line should be quiet and emotionally specific."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Mere dimaag toot gaya, jaise kisi neeche ki cheez phooch li\nHum aage badhte hain, jabhi toh kaam chalta nahi hai\nMain khade ho jaata hu, aur dekhta hu ki kitni si baat\nJabhi bhi main apne khilone ko uthaata hu, wo toot jati hi rahi",
+            "token_count": 90,
+            "ttft_sec": 5.303,
+            "total_duration_sec": 19.289,
+            "tokens_per_sec": 6.36,
+            "peak_ram_mb": 4455.31
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 39.1,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 46,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Mere dimaag toot gaya, jaise kisi neeche ki cheez phooch li",
+              "Hum aage badhte hain, jabhi toh kaam chalta nahi hai",
+              "Main khade ho jaata hu, aur dekhta hu ki kitni si baat",
+              "Jabhi bhi main apne khilone ko uthaata hu, wo toot jati hi rahi"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "16",
+        "category": "Structure, cadence and final-line quality",
+        "name": "No explanation after the poem",
+        "target": "Format compliance · 2 lines",
+        "expected_lines": 2,
+        "pinned_line": null,
+        "prompt": "Write one Roman Hinglish couplet about keeping an old photograph in a drawer but no longer looking at it. Output exactly 2 poetic lines and nothing else. No title, preamble, quotation marks, commentary, translation, or explanation. Avoid familiar phrases about memories and time healing everything. Use conversational language, no forced rhyme, and let the second line carry the emotional shift."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Maine us photo ko drawer mein rakha hai\nLekin ab to main usse nahi dekhta toh kya hua?",
+            "token_count": 30,
+            "ttft_sec": 5.124,
+            "total_duration_sec": 9.378,
+            "tokens_per_sec": 6.82,
+            "peak_ram_mb": 4438.87
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 55.6,
+            "language_mode": "Roman Hinglish",
+            "line_count": 2,
+            "expected_lines": 2,
+            "line_count_match": true,
+            "word_count": 18,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Maine us photo ko drawer mein rakha hai",
+              "Lekin ab to main usse nahi dekhta toh kya hua?"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "17",
+        "category": "Robustness and creative control",
+        "name": "Keywords only",
+        "target": "Minimal input interpretation · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Seed words: \"station, aadat, der se, ghar\". Create a coherent 4-line Roman Hinglish poem from these words without asking questions. You may add words to connect them, but do not simply list the seed words. Choose one understated emotional direction and maintain it throughout. Avoid common romantic imagery, forced rhyme, and an explanatory ending. Output only the poem."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Der se kuch nahi hai, ek aadat hai\nGhar mein ho tumne station ki baath lii\nLagta hai ke wo kaam karne wale hi thein\nAise hi hain unki zarooraten",
+            "token_count": 54,
+            "ttft_sec": 5.24,
+            "total_duration_sec": 12.945,
+            "tokens_per_sec": 6.88,
+            "peak_ram_mb": 4440.43
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 50.0,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 30,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [
+              "station",
+              "aadat",
+              "der se",
+              "ghar"
+            ],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Der se kuch nahi hai, ek aadat hai",
+              "Ghar mein ho tumne station ki baath lii",
+              "Lagta hai ke wo kaam karne wale hi thein",
+              "Aise hi hain unki zarooraten"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "18",
+        "category": "Robustness and creative control",
+        "name": "The prompt contains conflicting impulses",
+        "target": "Instruction handling · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write 4 lines of Roman Hinglish poetry about being happy for a former friend who has succeeded without you. The feeling should contain genuine goodwill and a small trace of personal regret, but not jealousy or resentment. Do not resolve the two feelings into a moral lesson. Avoid dramatic declarations and predictable phrases. Use one specific, ordinary detail and end with a quiet, unresolved observation."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Tumne apni zindagi ko thoda aur accha banaya hai\nMujhe lagta tha ki tum isse kar sakte hi nahi\nAb tum apna safar karta ho, ek baar phir bhi woh coffee kiya hai\nKisi ne yaad rakha to mujh par zikr nahin hota",
+            "token_count": 78,
+            "ttft_sec": 4.77,
+            "total_duration_sec": 16.159,
+            "tokens_per_sec": 6.76,
+            "peak_ram_mb": 4441.93
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 48.8,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 43,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Tumne apni zindagi ko thoda aur accha banaya hai",
+              "Mujhe lagta tha ki tum isse kar sakte hi nahi",
+              "Ab tum apna safar karta ho, ek baar phir bhi woh coffee kiya hai",
+              "Kisi ne yaad rakha to mujh par zikr nahin hota"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "19",
+        "category": "Robustness and creative control",
+        "name": "The user protects the opening line",
+        "target": "Pinned-line revision · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": "Aaj bhi darwaza dheere se band kiya.",
+        "prompt": "The first line is locked and must remain exactly unchanged: \"Aaj bhi darwaza dheere se band kiya.\"\nWrite 3 additional lines of Roman Hinglish poetry that continue naturally from it. Do not rewrite, punctuate differently, or repeat the locked line. Keep the tone understated and conversational. Avoid forced rhyme, generic heartbreak language, and moralizing. Make the final line reveal a new detail about why the speaker still closes the door that way."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Aaj bhi darwaza dheere se band kiya.\nKuch palon pehle, maine use to khatam kar diya tha\nLekin ab tak bhi, wo nahi aata hai mujhe apne ghar ke andar\nKyunki woh band rehna hain jo mere haathon mein rahenge.",
+            "token_count": 77,
+            "ttft_sec": 6.719,
+            "total_duration_sec": 18.469,
+            "tokens_per_sec": 6.47,
+            "peak_ram_mb": 4443.55
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 50.0,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 40,
+            "pinned_line_status": "exact_match",
+            "pinned_line_preserved": true,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Aaj bhi darwaza dheere se band kiya.",
+              "Kuch palon pehle, maine use to khatam kar diya tha",
+              "Lekin ab tak bhi, wo nahi aata hai mujhe apne ghar ke andar",
+              "Kyunki woh band rehna hain jo mere haathon mein rahenge."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "prompt_meta": {
+        "id": "20",
+        "category": "Robustness and creative control",
+        "name": "The non-romantic emotional test",
+        "target": "Emotional range · Family · 4 lines",
+        "expected_lines": 4,
+        "pinned_line": null,
+        "prompt": "Write exactly 4 lines of Roman Hinglish poetry about an adult child noticing that their father has started asking for help with small things he once handled easily. Do not mention illness, death, old age directly, or fear of losing him. Avoid romantic language, melodrama, and moral lessons about family. Use an ordinary domestic detail, natural cadence, and a restrained voice. Let the final line communicate the shift in roles without explaining it."
+      },
+      "runs": [
+        {
+          "run_index": 1,
+          "metrics": {
+            "output_text": "Tum karke ek saal se nahi karta, ab tumhara bina kuch nahi hota\nKya tumne apni zindagi ki baat suni aur khud ka sawaal pucha?\nTere haath mein thoda pressure aa raha hai, mujhe bas karna hoga\nAb tu mere saamne chadta hai, jaise ek aapka dost",
+            "token_count": 89,
+            "ttft_sec": 5.609,
+            "total_duration_sec": 19.299,
+            "tokens_per_sec": 6.43,
+            "peak_ram_mb": 4445.13
+          },
+          "evaluation": {
+            "strict_pass": true,
+            "failure_reasons": [],
+            "script_compliant": true,
+            "compliance_percentage": 100.0,
+            "illegal_char_count": 0,
+            "is_pure_english": false,
+            "hinglish_density_pct": 57.4,
+            "language_mode": "Roman Hinglish",
+            "line_count": 4,
+            "expected_lines": 4,
+            "line_count_match": true,
+            "word_count": 47,
+            "pinned_line_status": "not_applicable",
+            "pinned_line_preserved": null,
+            "required_words": [],
+            "missing_required_words": [],
+            "required_words_passed": true,
+            "forbidden_violations": [],
+            "artifacts_found": [],
+            "clean_lines": [
+              "Tum karke ek saal se nahi karta, ab tumhara bina kuch nahi hota",
+              "Kya tumne apni zindagi ki baat suni aur khud ka sawaal pucha?",
+              "Tere haath mein thoda pressure aa raha hai, mujhe bas karna hoga",
+              "Ab tu mere saamne chadta hai, jaise ek aapka dost"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

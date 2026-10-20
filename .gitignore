@@ -1,0 +1,66 @@
+# ==============================================================================
+# Ankahi Dastaan — .gitignore
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environments
+venv/
+
+# Large Language Model Weights (GGUF / Binaries)
+# Model files are multiple gigabytes and must be downloaded locally into models/
+models/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Application Runtime Data & Local SQLite Databases
+data/*.db
+data/*.db-wal
+data/*.db-shm
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Runtime logs & debug outputs
+logs/
+*.log
+
+# User-specific runtime state & overrides
+portable.txt
+app/voice/user_preferences.json
+
+# Packaging & distribution builds (PyInstaller / Nuitka)
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary scratch & test artifacts
+scratch/
+tmp/
+.pytest_cache/
+.mypy_cache/
